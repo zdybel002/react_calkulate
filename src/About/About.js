@@ -28,7 +28,7 @@ class About extends React.Component {
     });
   };
   render() {
-    return <div>Lorem</div>;
+    return <div>Lorem impsum duzo nowego teksstu</div>;
   }
 }
 export default About;
