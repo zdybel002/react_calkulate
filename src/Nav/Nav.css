@@ -1,0 +1,19 @@
+.containerNav {
+  background-color: rgb(7, 98, 7);
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+}
+.navItem {
+  padding: 10px 4px;
+  margin-right: 20px;
+}
+.navItem:hover {
+  background-color: rgb(22, 126, 22);
+}
+.navLink {
+  color: white;
+  text-decoration: none;
+}

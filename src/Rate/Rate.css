@@ -1,0 +1,37 @@
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.flex_rate_item {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  padding: 15px;
+  background-color: rgb(167, 163, 163);
+}
+
+.flex_rate_item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.currecny_item {
+  color: antiquewhite;
+}
+
+.currency_name {
+  align-self: flex-start;
+  font-weight: bold;
+}
+.main_heading {
+  margin-bottom: 10px;
+}
+.second_heding {
+  margin-bottom: 10px;
+}
+.curencyDesription {
+  color: #1c1c1c;
+  font-size: small;
+}
